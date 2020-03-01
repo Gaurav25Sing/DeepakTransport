@@ -1,0 +1,81 @@
+.navbar-brand{
+  padding-bottom: 8px;
+  padding-left: 5px;
+}
+
+.navbar-text{
+  position: relative;
+  /* hardcoded for mob no and emails */
+  margin-left: 100px;
+  /* hardcoded for mob no and emails ENDS */
+  font-size: 14px;
+}
+
+.navbar-text span{
+  padding-right: 20px;
+}
+
+.secBgImg{
+  background-image: url("truck bg edit.jpg");
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  color:white;
+}
+
+.secForm{
+  margin-left: 65%;
+  background-color: #00000059;
+  position: relative;
+  margin-top: 5%;
+  margin-right: 10%;
+  padding:10px;
+}
+
+#Card1{
+  /*hard coded for secBgImg to get full image as that is position absolute.
+   Hence this sec position relative isn't working*/
+  margin-top: 47%;
+  /*hard coding ENDS here*/
+}
+
+
+/* For all cards with left align */
+.secLeftAlignCard{
+  padding: 20px;
+}
+
+.sLACLeft{
+ width: 50%;
+ position: relative;
+ overflow-x: hidden;
+ float:left;
+ z-index: 1010101010;
+}
+
+
+/* For all cards with right align */
+.secRightAlignCard{
+  background-color: #343a40;
+  color: white;
+  padding: 20px;
+}
+
+.sLACRight{
+  position: relative;
+  width: 50%;
+  overflow-x: hidden;
+  float: left;
+  z-index: 1010101010;
+}
+
+
+/* last section of page for references */
+.secPageEnd{
+  padding: 30px;
+  background-color: black;
+  color: white;
+}
