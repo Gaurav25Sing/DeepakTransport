@@ -22,18 +22,17 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  position: absolute;
+  /* position: absolute; */
   color:white;
 }
 
 .secTagLine{
   font-size: 90px;
-  margin-left: 5%;
-  margin-top: 7%;
-  /* border-width: 10%;
-  border-style: solid;
-  border-left-style: none;
-  border-right-style: none; */
+  /* margin-left: 5%;
+  margin-top: 7%; */
+  padding-top: 10%;
+  padding-left: 5%;
+  padding-bottom: 20%;
 }
 
 /* to get border width 50% */
@@ -58,7 +57,8 @@
 #Card1{
   /*hard coded for secBgImg to get full image as that is position absolute.
    Hence this sec position relative isn't working*/
-  margin-top: 47%;
+  /* margin-top: 47%; */
+
   /*hard coding ENDS here*/
 }
 
